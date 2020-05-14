@@ -2,11 +2,11 @@
 Survival analysis, statistical test, Kaplan-Meier estimator, Cox regression, R
 
 # General dataset description:
-The dataset we are working with in this project is taken from the paper entitled **"Hotel booking demande dataset"** by Nuno Antonio *et al.* published in open access on ScienceDirect at https://doi.org/10.1016/j.dib.2018.11.126. 
+The dataset is taken from the paper entitled **"Hotel booking demande dataset"** by Nuno Antonio *et al.* published in open access on ScienceDirect at https://doi.org/10.1016/j.dib.2018.11.126. 
 
 The dataset is a set of two sub-datasets (we rename **H1_resort.csv, H2_CityHotel.csv** for convenience). Both dataset share the sames structure with 31 covariates describing 40060 observations for H1_resort, 79330 observations for H2_CityHotel. Each observation represents a resort booking (H1_resort), city hoel booking (H2_CityHotel) . Both datasets comprehend bookings between the 1st of July 2015 and the 31st of August 2017 in Portugal : resort at region of Algarve and hotel in Lisbon. The booking datasets are righ-censored by booking status (cancellation or not) associated with booking time. 
 
-In the framework of our project, we list below the relevant features involved in our analysis : 
+In the framework of this demonstration, I list below the relevant features involved in the analysis : 
 
 Covariate | Type | Description      | 
 :------- |:---------------- | :---------- | 
